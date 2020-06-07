@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook</title>
+    <style>
+        body{
+            background-color: #d3d8e4;
+        }
+        #header{
+            background-color: #3b5998;
+            padding: 0px 250px;
+            display: flex;
+            justify-content: space-between;
+        }
+        h1{
+            color: whitesmoke;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+            width: 200px;
+        }
+        #create{
+            color:black;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .h2{
+            color: rgba(19, 62, 100, 0.719);
+            font-size: 25px;
+            font-weight: bold;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        #login{
+            color: whitesmoke;
+            padding-right: 150px;
+            padding-top: 30px;
+        }
+        #body{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 250px;
+        }
+        .align{
+            padding-left: 100px;
+        }
+        .button{
+            background-color:rgb(124, 168, 48);
+            color: linen;
+            border-color: grey;
+            border-radius: 5px;
+            padding: 5px 45px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 4px 2px;
+            cursor: pointer
+        }
+        .login{
+            background-color: #3b5998;
+            color: #d3d8e4;
+            cursor: pointer;
+        }
+        .wide{
+            width: 200px;
+            font-size: 20px;
+        }
+        .width{
+            width: 410px;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        select{
+            padding: 5px 10px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h3{
+            color: grey;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .strong{
+            padding: 20px 0px;
+            font-size: 25px;
+        }
+        .head{
+            font-size:  50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        .p{
+            color: grey;
+        }
+        #pp{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>facebook</h1>
+        <table id="login">
+            <tr>
+                <td>Email or phone</td>
+                <td>Password</td>
+            </tr>
+            <tr>
+                <td><input type="email" email="youremail@email.com" placeholder="Email"></td>
+                <td><input type="password" placeholder="Password"></td>
+                <td><input type="button" class="login" value="Login"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" placeholder="Login">Keep me logged in</td>
+                <td>Forgotten your password?</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="body">
+        <section>
+            <div class="h2">Facebook helps you connect and share with people in your life</div>
+            <img class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/OBaVg52wtTZ.png" alt="" width="537" height="195">
+        </section>
+        <section class="align">
+            <div class="head">Create an account</div>
+            <div class="strong">It's quick and easy.</div>
+            <table id="details">
+                <tr>
+                    <td><input type="name" class="wide" placeholder="First name"></td>
+                    <td><input type="name" class="wide" placeholder="Surname"></td>
+                </tr>
+            </table><br><br>
+            <input type="tel" class="width" placeholder="Mobile number or email address"><br><br>
+            <input type="password" class="width" placeholder="New password">
+            <h3>Birthday</h3>
+                <select name="days">
+                    <option value="days">1</option>
+                    <option value="days">2</option>
+                    <option value="days">3</option>
+                    <option value="days">4</option>
+                    <option value="days">5</option>
+                    <option value="days">6</option>
+                    <option value="days">7</option>
+                    <option value="days">8</option>
+                    <option value="days">9</option>
+                    <option value="days">10</option>
+                    <option value="days">11</option>
+                    <option value="days">11</option>
+                    <option value="days">12</option>
+                    <option value="days">13</option>
+                    <option value="days">14</option>
+                    <option value="days">15</option>
+                    <option value="days">16</option>
+                    <option value="days">17</option>
+                    <option value="days">18</option>
+                    <option value="days">19</option>
+                    <option value="days">20</option>
+                    <option value="days">21</option>
+                    <option value="days">22</option>
+                    <option value="days">23</option>
+                    <option value="days">24</option>
+                    <option value="days">25</option>
+                    <option value="days">26</option>
+                    <option value="days">27</option>
+                    <option value="days">28</option>
+                    <option value="days">29</option>
+                    <option value="days">30</option>
+                    <option value="days">31</option>
+                </select>
+                <select>
+                    <option name="month">January</option>
+                    <option name="month">Febuary</option>
+                    <option name="month">March</option>
+                    <option name="month">April</option>
+                    <option name="month">June</option>
+                    <option name="month">July</option>
+                    <option name="month">August</option>
+                    <option name="month">September</option>
+                    <option name="month">October</option>
+                    <option name="month">November</option>
+                    <option name="month">December</option>
+                </select>
+                <select>
+                    <option name="year">2000</option>
+                    <option name="year">2001</option>
+                    <option name="year">2002</option>
+                    <option name="year">2003</option>
+                    <option name="year">2004</option>
+                    <option name="year">2005</option>
+                    <option name="year">2006</option>
+                    <option name="year">2007</option>
+                    <option name="year">2008</option>
+                    <option name="year">2009</option>
+                    <option name="year">2010</option>
+                </select>
+            <h3>Gender</h3>
+            <table>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Female</td>
+                    <td><input type="checkbox"></td>
+                    <td>Male</td>
+                    <td><input type="checkbox"></td>
+                    <td>Custom</td>
+                </tr>
+            </table>
+            <p class="p">
+                By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+            <p>
+                <input type="button" class="button" value="Sign Up">
+            </p>
+            <br>
+            <p class="p" id="pp">
+                <a href="httpe://www.facebook.com/page">Create a Page</a> for a celebrity, band or business.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
