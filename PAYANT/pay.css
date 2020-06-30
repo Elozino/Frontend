@@ -1,0 +1,34 @@
+body{
+    background-color: #8da5b8;
+}
+.header{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.details-bg{
+    background-color: white;
+    border: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+}
+h6{
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.input{
+    padding: 12px;
+    font-size: 30px;
+}
+.login{
+    padding: 10px 0px;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
